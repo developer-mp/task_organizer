@@ -1,0 +1,35 @@
+.todo-main {
+  display: flex;
+}
+
+.todo-task {
+  width: 150px;
+  height: 30px;
+  border: solid 1px gray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5em;
+  background-color: white;
+}
+
+.todo-deadline {
+  width: 150px;
+  height: 30px;
+  border: solid 1px gray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5em;
+  background-color: white;
+  margin-left: 1px;
+}
+
+.todo-delete {
+  width: 20px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 0.5em;
+  cursor: pointer;
+}
